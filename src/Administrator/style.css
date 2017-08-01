@@ -1,0 +1,204 @@
+/* #9C9EC6 /* Middle */
+/* #F7F8FF /* light */
+/* #C2C4EF /* light-darker */
+/* #4D5078 /* middle-dark */
+/* #212238 /* dark */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  cursor: default;
+  overflow: auto;
+}
+
+.admin {
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #212238;
+  min-height: 30px;
+  padding: 2px;
+  color: white;
+}
+
+.App-title-button {
+  width: 10%;
+  border-left: 1px solid white;
+  padding: 5px 10px;
+  display: inline-block;
+
+}
+.App-title-button a {
+  font: bold 20px/20px 'Source Sans Pro', sans-serif;
+}
+
+.App-title {
+  width: 90%;
+}
+
+.title-inline {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: right;
+  margin: 0 10px;
+  font: bold 20px/30px 'Source Sans Pro', sans-serif;
+}
+
+.invisible {
+  display: none !important;
+}
+.admin-main {
+  width:70%;
+  min-width: 300px;
+  margin: 20px auto;
+}
+.addEventForm {
+background-color: #4D5078;
+}
+
+.addEventForm select, 
+.addEventForm input, 
+.addEventForm textarea,
+.addEventForm button{
+  margin: 5px auto;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #4D5078;
+  min-height: 30px;
+}
+.addEventForm textarea {
+    resize: vertical;
+    width: 99%;
+}
+
+.addEventForm fieldset {
+  background-color: #C2C4EF;
+  outline: none;
+  border: none;
+}
+.addEventForm label {
+
+}
+.addEventForm select{
+  margin: 5px;
+  height: 30px;
+
+}
+
+.addEventForm legend {
+  margin-top: 10px;
+  padding-top: 20px;
+  font: bold 12px/15px 'Source Sans Pro', sans-serif;
+}
+.wide {
+  display: block;
+  width: 100%;
+}
+.addEvent header{
+  font: normal 16px/50px 'Source Sans Pro', sans-serif;
+  background-color: #5D62C2;
+  color: #F7F8FF;
+  border-radius: 5px;
+  margin: 15px 0;
+  height: 50px;
+}
+
+
+.addEvent header:focus,
+.addEvent header:hover,
+.passwordSubmit:focus,
+.passwordSubmit:hover{
+ font-weight: bold;
+}
+.alert input{
+  background-color: #FF0145;
+
+}
+
+.passwordInput header{
+  font: bold 20px/24px 'Source Sans Pro', sans-serif;
+  padding: 50px 0 20px 0;
+
+}
+.passwordInput input{
+  height:40px;
+  border: solid 1px #4D5078;
+  font: normal 18px/22px 'Source Sans Pro', sans-serif;
+  padding: 50px 0 20px 0;
+  border-radius: 5px;
+
+}
+
+.passwordInput input:hover,
+.passwordInput input:focus,
+.passwordInput input:active {
+  box-shadow: none;
+  outline: none;
+  background-color: #F7F8FF;
+  color: #212238;
+
+}
+
+.passwordSubmit {
+  height:40px;
+  border-radius: 5px;
+  border: solid 1px #4D5078;
+  margin: 10px 0;
+  background-color: #5D62C2;
+  color: white;
+  font: normal 16px/20px 'Source Sans Pro', sans-serif;
+}
+
+.form-mentors-list {
+  max-width: 300px;
+  text-align: left;
+  max-height: 200px;
+  overflow: auto;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #4D5078;
+
+}
+
+.form-mentors-list input {
+width: 30px;
+}
+
+.resources-list{
+  border-bottom: solid 1px #4D5078;
+  margin: 5px auto;
+
+}
+.submit {
+  font: bold 16px/20px 'Source Sans Pro', sans-serif;
+  padding: 15px 50px;
+
+}
+.addEvent input:not([type = "checkbox"]):hover,
+.addEvent input:not([type = "checkbox"]):active,
+.addEvent button:hover,
+.addEvent button:active,
+.addEvent select:hover,
+.addEvent select:active, 
+.addEvent textarea:hover,
+.addEvent textarea:active  {
+  -webkit-box-shadow: 2px 2px 15px -3px rgba(33, 34, 56, 1);
+  -moz-box-shadow: 2px 2px 15px -3px rgba(33, 34, 56, 1);
+  box-shadow: 2px 2px 15px -3px rgba(33, 34, 56, 1);
+}
+
+.messageOK {
+  font: bold 16px/20px 'Source Sans Pro', sans-serif;
+  padding: 15px 0;
+  color: #4D5078;
+
+}
